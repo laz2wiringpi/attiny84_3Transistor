@@ -1,0 +1,123 @@
+(.../EAGLE-7.2.0/pcb-gcode/pcb-gcode.ulp)
+(Copyright 2005 - 2012 by John Johnson)
+(See readme.txt for licensing terms.)
+(This file generated from the board:)
+(.../attiny84_3Transistor/attiny85_4Transistor.brd)
+(Current profile is .../EAGLE-7.2.0/pcb-gcode/profiles/emc.pp  )
+(This file generated 9/2/2015 7:50:38 PM)
+(Settings from pcb-machine.h)
+(spindle on time = 3.0000)
+(spindle speed = 20000.0000)
+(tool change at 10.0000 10.0000 25.4000 )
+(feed rate xy = F0.00  )
+(feed rate z  = F508.00 )
+(Z Axis Settings)
+(  High     Up        Down     Drill)
+(5.0000 	3.0000 	-0.2500 	-0.2000 )
+(Settings from pcb-defaults.h)
+(isolate min = 0.0025)
+(isolate max = 0.5080)
+(isolate step = 0.1270)
+(Generated top drill, top stencil, )
+(Unit of measure: mm)
+(Beginning of every file)
+(Beginning of every top file)
+(Beginning of All Drill files)
+ G90 G61.1 G40 G49
+(Top Drill Begin)
+( Tool|       Size       |  Min Sub |  Max Sub |   Count )
+( T38 | 0.800mm 0.0315in | 0.0315in | 0.0320in |       4 )
+( T40 | 1.000mm 0.0394in | 0.0394in | 0.0400in |      12 )
+( T43 | 1.150mm 0.0453in | 0.0453in | 0.1260in |       2 )
+(Metric Mode)
+G21
+(Absolute Coordinates)
+G90 G61.1 G40 G49
+S20000
+G00 Z5.0000 
+G00 X0.0000 Y0.0000 
+M03
+G04 P3.000000
+(Tool Change Begin)
+(Top Tool Change Begin)
+M05
+G00 Z25.4000 
+G00 X10.0000 Y10.0000 
+M0 T38 (0.8000 )
+(Top Tool changed)
+(Tool changed)
+(Tool zero begin)
+(Top Tool zero begin)
+G01 Z0.0000 F508.00 
+M0 
+(Top Tool zero end)
+(Tool zero end)
+G00 Z3.0000 
+M03
+G04 P3.000000
+(Top Tool Changed End)
+(Tool Change End)
+G82 X13.0972 Y1.9069 Z-0.2000 F508.00 R3.0000 P0.500000
+G82 X13.0972 Y4.4469 
+G82 X17.9232 Y4.4469 
+G82 X17.9232 Y1.9069 
+(Tool Change Begin)
+(Top Tool Change Begin)
+M05
+G00 Z25.4000 
+G00 X10.0000 Y10.0000 
+M0 T40 (1.0000 )
+(Top Tool changed)
+(Tool changed)
+(Tool zero begin)
+(Top Tool zero begin)
+G01 Z0.0000 F508.00 
+M0 
+(Top Tool zero end)
+(Tool zero end)
+G00 Z3.0000 
+M03
+G04 P3.000000
+(Top Tool Changed End)
+(Tool Change End)
+G82 X3.7177 Y19.2868 Z-0.2000 F508.00 R3.0000 P0.500000
+G82 X8.2135 Y27.2370 
+G82 X14.8937 Y21.0648 
+G82 X17.4337 Y21.0648 
+G82 X17.4337 Y23.6048 
+G82 X19.9737 Y23.6048 
+G82 X19.9737 Y21.0648 
+G82 X23.9471 Y8.6072 
+G82 X27.6949 Y10.4923 
+G82 X24.7327 Y2.9563 
+G82 X21.6888 Y4.4939 
+G82 X12.3203 Y8.6872 
+(Tool Change Begin)
+(Top Tool Change Begin)
+M05
+G00 Z25.4000 
+G00 X10.0000 Y10.0000 
+M0 T43 (1.1500 )
+(Top Tool changed)
+(Tool changed)
+(Tool zero begin)
+(Top Tool zero begin)
+G01 Z0.0000 F508.00 
+M0 
+(Top Tool zero end)
+(Tool zero end)
+G00 Z3.0000 
+M03
+G04 P3.000000
+(Top Tool Changed End)
+(Tool Change End)
+G82 X2.5400 Y29.2100 Z-0.2000 F508.00 R3.0000 P0.500000
+G82 X29.2100 Y2.5400 
+(Top Drill End)
+(End of all Drill Files)
+(End of every top file)
+(End of every file)
+T01 
+G00 Z5.0000 
+M05
+M02

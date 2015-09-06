@@ -1,0 +1,37 @@
+Partlist
+
+Exported from attiny85_4Transistor.sch at 9/4/2015 6:24:33 PM
+
+EAGLE Version 7.2.0 Copyright (c) 1988-2014 CadSoft
+
+Assembly variant: 
+
+Part     Value              Device                  Package            Library                        Sheet
+
+C2       1.0uF              1.0UF-25V-+80/-20(0805) 0805               SparkFun-Capacitors            1
+JP1                         M021X02_NO_SILK         1X02_NO_SILK       SparkFun-Connectors            1
+JP2                         M01PTH                  1X01               SparkFun-Connectors            1
+JP4                         M031X03_NO_SILK         1X03_NO_SILK       SparkFun-Connectors            1
+PAD1                        2,15/1,0                2,15/1,0           wirepad                        1
+PAD2                        2,15/1,0                2,15/1,0           wirepad                        1
+PAD4                        2,15/1,0                2,15/1,0           wirepad                        1
+PAD5                        2,15/1,0                2,15/1,0           wirepad                        1
+PAD6                        2,15/1,0                2,15/1,0           wirepad                        1
+PAD7                        2,15/1,0                2,15/1,0           wirepad                        1
+PC1      27u                CPOL-EUE2.5-5V          E2,5-4R            rcl                            1
+PC2      27u                CPOL-EUE2.5-5V          E2,5-4R            rcl                            1
+Q1       BC817-16SMD        BC817-16SMD             SOT23-BEC          transistor-npn                 1
+Q3       BC817-16SMD        BC817-16SMD             SOT23-BEC          transistor-npn                 1
+Q4       BC817-16SMD        BC817-16SMD             SOT23-BEC          transistor-npn                 1
+Q5       BC817-16SMD        BC817-16SMD             SOT23-BEC          transistor-npn                 1
+R1       1K                 R-US_R0805              R0805              rcl                            1
+R3       1K                 R-US_R0805              R0805              rcl                            1
+R5       1K                 R-US_R0805              R0805              rcl                            1
+R6       10K                R-US_M0805              M0805              adafruit                       1
+R7       10K                R-US_M0805              M0805              adafruit                       1
+R8       1K                 R-US_R0805              R0805              rcl                            1
+R9       10K                R-US_M0805              M0805              adafruit                       1
+R10      10K                R-US_M0805              M0805              adafruit                       1
+S1       SWITCH-MOMENTARY-2 SWITCH-MOMENTARY-2      TACTILE_FSM4JSMATR SparkFun-Electromechanical_alr 1
+U2       Tiny45-20-SMT      ATTINY45TINY45-20-SMT   SO08-EIAJ          SparkFun-DigitalIC             1
+U3       V_REG_317SMD       V_REG_317SMD            SOT223             SparkFun-PowerIC               1

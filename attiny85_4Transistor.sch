@@ -13655,30 +13655,30 @@ Standard LM317 adjustable voltage regulator. AOI (Adjust Output Input). Google '
 <parts>
 <part name="C2" library="SparkFun-Capacitors" deviceset="1.0UF-25V-+80/-20(0805)" device="" value="1.0uF"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
-<part name="PC1" library="rcl" deviceset="CPOL-EU" device="E2.5-5V" value="47u"/>
+<part name="PC1" library="rcl" deviceset="CPOL-EU" device="E2.5-5V" value="27u"/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="P+8" library="supply1" deviceset="+5V" device=""/>
 <part name="P+1" library="supply1" deviceset="+5V" device=""/>
-<part name="PC2" library="rcl" deviceset="CPOL-EU" device="E2.5-5V" value="47u"/>
+<part name="PC2" library="rcl" deviceset="CPOL-EU" device="E2.5-5V" value="27u"/>
 <part name="Q1" library="transistor-npn" deviceset="BC817*" device="SMD" technology="-16"/>
 <part name="Q3" library="transistor-npn" deviceset="BC817*" device="SMD" technology="-16"/>
-<part name="R1" library="rcl" deviceset="R-US_" device="R0805"/>
-<part name="R3" library="rcl" deviceset="R-US_" device="R0805"/>
-<part name="R7" library="adafruit" deviceset="R-US_" device="M0805"/>
-<part name="R9" library="adafruit" deviceset="R-US_" device="M0805"/>
+<part name="R1" library="rcl" deviceset="R-US_" device="R0805" value="1K"/>
+<part name="R3" library="rcl" deviceset="R-US_" device="R0805" value="1K"/>
+<part name="R7" library="adafruit" deviceset="R-US_" device="M0805" value="10K"/>
+<part name="R9" library="adafruit" deviceset="R-US_" device="M0805" value="10K"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="U2" library="SparkFun-DigitalIC" deviceset="ATTINY45" device="TINY45-20-SMT" value="Tiny45-20-SMT"/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="Q4" library="transistor-npn" deviceset="BC817*" device="SMD" technology="-16"/>
-<part name="R5" library="rcl" deviceset="R-US_" device="R0805"/>
-<part name="R6" library="adafruit" deviceset="R-US_" device="M0805"/>
+<part name="R5" library="rcl" deviceset="R-US_" device="R0805" value="1K"/>
+<part name="R6" library="adafruit" deviceset="R-US_" device="M0805" value="10K"/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="Q5" library="transistor-npn" deviceset="BC817*" device="SMD" technology="-16"/>
-<part name="R8" library="rcl" deviceset="R-US_" device="R0805"/>
-<part name="R10" library="adafruit" deviceset="R-US_" device="M0805"/>
+<part name="R8" library="rcl" deviceset="R-US_" device="R0805" value="1K"/>
+<part name="R10" library="adafruit" deviceset="R-US_" device="M0805" value="10K"/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="PAD1" library="wirepad" deviceset="2,15/1,0" device=""/>
 <part name="PAD2" library="wirepad" deviceset="2,15/1,0" device=""/>

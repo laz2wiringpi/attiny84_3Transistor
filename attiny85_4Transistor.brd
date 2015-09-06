@@ -581,23 +581,23 @@ design rules under a new name.</description>
 <attribute name="PROD_ID" value="CAP-11625" x="6.785609375" y="9.391871875" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" value="1.0uF" x="6.785609375" y="9.391871875" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="PC1" library="rcl" package="E2,5-4R" value="47u" x="17.923190625" y="3.17693125" rot="R270"/>
-<element name="PC2" library="rcl" package="E2,5-4R" value="47u" x="13.097190625" y="3.17693125" rot="R270"/>
+<element name="PC1" library="rcl" package="E2,5-4R" value="27u" x="17.923190625" y="3.17693125" rot="R270"/>
+<element name="PC2" library="rcl" package="E2,5-4R" value="27u" x="13.097190625" y="3.17693125" rot="R270"/>
 <element name="Q1" library="transistor-npn" package="SOT23-BEC" value="BC817-16SMD" x="24.955825" y="12.516725" rot="R270"/>
 <element name="Q3" library="transistor-npn" package="SOT23-BEC" value="BC817-16SMD" x="19.90266875" y="10.863090625"/>
-<element name="R1" library="rcl" package="R0805" value="" x="15.069575" y="14.84656875"/>
-<element name="R3" library="rcl" package="R0805" value="" x="15.84269375" y="12.1157125"/>
-<element name="R7" library="adafruit" package="M0805" value="" x="20.0568375" y="7.773553125"/>
-<element name="R9" library="adafruit" package="M0805" value="" x="19.921590625" y="14.770396875"/>
+<element name="R1" library="rcl" package="R0805" value="1K" x="15.069575" y="14.84656875"/>
+<element name="R3" library="rcl" package="R0805" value="1K" x="15.84269375" y="12.1157125"/>
+<element name="R7" library="adafruit" package="M0805" value="10K" x="20.0568375" y="7.773553125"/>
+<element name="R9" library="adafruit" package="M0805" value="10K" x="19.921590625" y="14.770396875"/>
 <element name="U2" library="SparkFun-DigitalIC" package="SO08-EIAJ" value="Tiny45-20-SMT" x="6.27573125" y="13.366665625" rot="R90">
 <attribute name="PROD_ID" value="IC-08922" x="6.27573125" y="13.366665625" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="Q4" library="transistor-npn" package="SOT23-BEC" value="BC817-16SMD" x="13.064909375" y="27.1608375" rot="R90"/>
-<element name="R5" library="rcl" package="R0805" value="" x="20.3028375" y="27.524290625" rot="R90"/>
-<element name="R6" library="adafruit" package="M0805" value="" x="17.103509375" y="27.3640375" rot="R90"/>
+<element name="R5" library="rcl" package="R0805" value="1K" x="20.3028375" y="27.524290625" rot="R90"/>
+<element name="R6" library="adafruit" package="M0805" value="10K" x="17.103509375" y="27.3640375" rot="R90"/>
 <element name="Q5" library="transistor-npn" package="SOT23-BEC" value="BC817-16SMD" x="6.791109375" y="22.8936375" rot="R90"/>
-<element name="R8" library="rcl" package="R0805" value="" x="13.877709375" y="23.6048375" rot="R180"/>
-<element name="R10" library="adafruit" package="M0805" value="" x="10.397909375" y="22.9952375" rot="R90"/>
+<element name="R8" library="rcl" package="R0805" value="1K" x="13.877709375" y="23.6048375" rot="R180"/>
+<element name="R10" library="adafruit" package="M0805" value="10K" x="10.397909375" y="22.9952375" rot="R90"/>
 <element name="PAD1" library="wirepad" package="2,15/1,0" value="" x="8.213509375" y="27.2370375"/>
 <element name="PAD2" library="wirepad" package="2,15/1,0" value="" x="3.717709375" y="19.2868375" rot="R90"/>
 <element name="PAD4" library="wirepad" package="2,15/1,0" value="" x="23.947059375" y="8.607203125"/>

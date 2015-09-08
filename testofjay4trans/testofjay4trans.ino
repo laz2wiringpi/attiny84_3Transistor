@@ -176,7 +176,7 @@ int tmp = 0;
 while (currentMillis - tmppreviousMillis <= delaytime) {
 
 	tmp = digitalRead(IN_SWITCH);
-	if (  tmp = LOW  )
+	if (  tmp == LOW  )
 		return 1;
 	currentMillis = millis();
 
